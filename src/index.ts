@@ -25,7 +25,7 @@ server.listen(8080, () => {
 
 });
 
-const MONGO_URL = "mongodb+srv://ecomecom:ecomecom@cluster0.ni9ik8q.mongodb.net/";
+const MONGO_URL = "YOUR MONGO DB URL";
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
